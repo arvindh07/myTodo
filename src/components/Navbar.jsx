@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import LogoutIcon from '@mui/icons-material/Logout';
+import PersonPinIcon from '@mui/icons-material/PersonPin';
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className='nav'>
+        <a href="#" className="logo">myTodo</a>
+        <div className="icons">
+            <PersonPinIcon/>
+            <LogoutIcon/>
+        </div>
+    </nav>
   )
 }
 

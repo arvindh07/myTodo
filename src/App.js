@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <header><Navbar/></header>
         <Routes>
           <Route exact path="/" element={<Login/>}/>
           <Route path="*" element={<ErrorPage/>}/>
